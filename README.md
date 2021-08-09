@@ -4,6 +4,8 @@ An exploration of basic Deep Learning classification and object detection techni
 ## Outline 
 ### 1. Introduction
 #### 1.1 Datasets
+1. The main dataset we choose for is from kaggle and can be found [here](https://www.kaggle.com/andrewmvd/animal-faces). This dataset includes 200 images of raccoons and a csv file with coordinates for the upper left and lower right corners of bounding boxes identifying where each raccoon is (see adorable example below). 
+2. 
 #### 1.2 Basic Model
 ### 2. Data Augmentation with Albumentations Library 
 ### 3. Modeling 
