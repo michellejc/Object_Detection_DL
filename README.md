@@ -3,10 +3,10 @@ An exploration of basic Deep Learning classification and object detection techni
 
 ## Outline
 1. Introduction
-  1.1 Summary and Goals
-  1.2 Datasets
+  1.1 Summary and Goals <br>
+  1.2 Datasets <br>
 2. Modeling
-  2.1 Basic Object Detection
+    2.1 Basic Object Detection
   2.2 Data Augmentations
   2.3 Batch Normalization
 3. Conclusion and Next Steps
