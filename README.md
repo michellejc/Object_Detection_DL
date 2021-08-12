@@ -2,14 +2,14 @@
 An exploration of basic Deep Learning classification and object detection techniques. This repository is a basic guide to getting started with object detection, and computer vision more generally. A basic knowledge of ML concepts, Python, and Pytorch are assumed, but the intention is for this repository to be easy to follow for anyone who is interested!
 
 ## Outline
-1. Introduction
+1. Introduction <br>
   1.1 Summary and Goals <br>
   1.2 Datasets <br>
-2. Modeling
-    2.1 Basic Object Detection
-  2.2 Data Augmentations
-  2.3 Batch Normalization
-3. Conclusion and Next Steps
+2. Modeling <br>
+    2.1 Basic Object Detection <br>
+  2.2 Data Augmentations <br>
+  2.3 Batch Normalization <br>
+3. Conclusion and Next Steps <br>
 
 ## 1. Introduction
 ### 1.1 Summary and Goals
