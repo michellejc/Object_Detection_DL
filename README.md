@@ -45,4 +45,12 @@ We also wanted to explore the relationship between loss functions and model perf
 
 ### 2.5 Multi-Task Model
 
+The last model we wanted to try was a combination of a binary classification task and bounding box identification. We supplemented our raccoon dataset with images of wildlife and asked the model to predict whether or not an image contained a raccoon, and if so, the bounding box of the raccoon. The loss included binary cross entropy loss for classification and MSE loss for the bounding box. The weights of these 2 losses could potentially be adjusted for improved model results.
+
+Over a couple of epochs, loss did decrease, however, accuracy stayed constant. Further investigation would be needed to understand why this was occurring.
+
 ## 3. Conclusion and Next Steps
+
+This was a fun dataset to explore and we found the albumentations library to be fairly simple to employ. Having the bounding box coordinates transformed simultaneously with the image is a great functionality of the library. In each step of the modeling process, we had some struggles and got strange numbers which were difficult to debug. As our first experience using deep learning to perform object detection, these struggles were not unexpected and parallels situations in the real world. Especially since this dataset, although from Kaggle, was not part of a competition, there weren't as many online resources available.
+
+Next steps include diving more into the inner steps of each of our models to understand whether the output numbers (loss and accuracy) are expected or unexpected. Then for the unexpected numbers, we should trace which part of the model is the cause. Finally, since our dataset was small, using a pretrained model such as Resnet could be helpful since the model comes with pretrained weights. We could simply adjust the end of the model to perform our modeling task of classication and bounding box identification.
